@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand, .navbar-toggler, .navbar-toggler-icon{
+    color: white;
+}
+
+.hero-container{
+    /* backgr    url(../img/coding-924920_1280.jpg);
+
+ound-image: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.721)), */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hero-container-2{
+    height: 600px;
+    background-color: rgb(35, 31, 31);
+}
+
+.hero-parrafo{
+    color: white;
+}
+
+.hero-h1{
+    color: white!important;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.721)),
+    url(../img/coding-924920_1280.jpg);
+    background-size: cover;
+}
+
+.container-cards{
+    background-color: rgb(26, 24, 24);
+    height: 1000px;
+}
+
+.cards-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.contenedor-cartas{
+    display: flex;
+    gap: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.lacartita{
+    height: 600px!important;
+    width: 500px!important;
+}
+
+
+
+.total-pago-container {
+    text-align: center;
+    /* color: white; */
+    /* padding-top: 20px; */
+    /* margin-bottom: 20px; */
+  }
+.total-pago{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+  #total-pago-amount {
+    background-color: #fff;
+    width: 150px;
+    height: 80px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+
+  .realizar-pago{
+    color: white;
+    padding-right: 10px;
+}
+
+.cancelar-compra{
+    color: white;
+    padding-left: 10px;
+}
+
+.hacer-compra{
+    color: white;
+}
+
+
+.contenedor-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+
+.card-javascript {
+  max-width: 100px; /* ancho máximo */
+  margin-left: 50px;
+  margin: 10px; /* margen entre tarjetas */
+  padding: 10px; /* padding interior */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+.card img {
+  width: 287px; /* ancho de la imagen */
+  height: 300px; /* alto de la imagen */
+  object-fit: cover; /* ajustar imagen al contenedor */
+}
+
+.card-body {
+  padding: 10px; /* padding interior */
+}
